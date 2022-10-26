@@ -1,0 +1,55 @@
+{
+    "@context": [
+        {
+            "@vocab": "https://twinschema.org/"
+        },
+        {
+            "ddt": "https://ddt.twinschema.org/"
+        },
+        {
+            "tors": "https://tors.twinschema.org/"
+        }
+    ],
+    "dt-id": "https://dtid.org/e09a43fa-fea6-41e7-907b-3fb5a0d17371",
+    "hosting-iri": "https://juusoautiosalo.github.io/dev-twinbase-ddt/e09a43fa-fea6-41e7-907b-3fb5a0d17371",
+    "name": "Windmill component",
+    "description": "[Draft] Design template component according to an example defined  in https://github.com/Aalto-Arotor/openTorsion/blob/main/opentorsion/examples/windmill.py . Used for creating a simulation on OpenTorsion.\n",
+    "@type": "ddt:Component",
+    "tors:elements": [
+        {
+            "@type": "tors:Disk",
+            "tors:inCoordinate": 0,
+            "tors:inertia": "1e7",
+            "tors:damping": 0
+        },
+        {
+            "@type": "tors:ShaftDiscrete",
+            "tors:inCoordinate": 0,
+            "tors:outCoordinate": 1,
+            "tors:stiffness": "3.67e8",
+            "tors:damping": 0
+        },
+        {
+            "@type": "tors:Disk",
+            "tors:inCoordinate": 1,
+            "tors:inertia": 5770,
+            "tors:damping": 0
+        },
+        {
+            "@type": "tors:ShaftDiscrete",
+            "tors:inCoordinate": 1,
+            "tors:outCoordinate": 2,
+            "tors:stiffness": "5.496e9",
+            "tors:damping": 0
+        },
+        {
+            "@type": "tors:Disk",
+            "tors:inCoordinate": 2,
+            "tors:inertia": 97030,
+            "tors:damping": 0
+        }
+    ],
+    "baseurl": "https://juusoautiosalo.github.io/dev-twinbase-ddt",
+    "edit": "https://github.com/juusoautiosalo/dev-twinbase-ddt/edit/main/docs/e09a43fa-fea6-41e7-907b-3fb5a0d17371/index.yaml",
+    "edit-json": "https://github.com/juusoautiosalo/dev-twinbase-ddt/edit/main/docs/e09a43fa-fea6-41e7-907b-3fb5a0d17371/index.json"
+}
