@@ -8,6 +8,9 @@
         },
         {
             "tors": "https://tors.twinschema.org/"
+        },
+        {
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
         }
     ],
     "dt-id": "https://dtid.org/e09a43fa-fea6-41e7-907b-3fb5a0d17371",
@@ -18,12 +21,20 @@
     "tors:elements": [
         {
             "@type": "tors:Disk",
+            "rdfs:comment": {
+                "@language": "en",
+                "@value": "Turbine of the windmill"
+            },
             "tors:inCoordinate": 0,
             "tors:inertia": "1e7",
             "tors:damping": 0
         },
         {
             "@type": "tors:ShaftDiscrete",
+            "rdfs:comment": {
+                "@language": "en",
+                "@value": "Shaft that connects turbine and rotor"
+            },
             "tors:inCoordinate": 0,
             "tors:outCoordinate": 1,
             "tors:stiffness": "3.67e8",
@@ -31,12 +42,20 @@
         },
         {
             "@type": "tors:Disk",
+            "rdfs:comment": {
+                "@language": "en",
+                "@value": "Rotor inner part"
+            },
             "tors:inCoordinate": 1,
             "tors:inertia": 5770,
             "tors:damping": 0
         },
         {
             "@type": "tors:ShaftDiscrete",
+            "rdfs:comment": {
+                "@language": "en",
+                "@value": "Spring that connects inner and outer parts of rotor"
+            },
             "tors:inCoordinate": 1,
             "tors:outCoordinate": 2,
             "tors:stiffness": "5.496e9",
@@ -44,6 +63,10 @@
         },
         {
             "@type": "tors:Disk",
+            "rdfs:comment": {
+                "@language": "en",
+                "@value": "Rotor outer part"
+            },
             "tors:inCoordinate": 2,
             "tors:inertia": 97030,
             "tors:damping": 0

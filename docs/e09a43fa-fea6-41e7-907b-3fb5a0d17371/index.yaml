@@ -13,38 +13,38 @@ description: '[Draft] This document describes a windmill drivetrain as one compo
 tors:elements:
 - '@type': tors:Disk
   rdfs:comment:
-      "@language" : en
-      "@value" : Turbine of the windmill
+    '@language': en
+    '@value': Turbine of the windmill
   tors:inCoordinate: 0
   tors:inertia: 1e7
   tors:damping: 0
 - '@type': tors:ShaftDiscrete
   rdfs:comment:
-      "@language" : en
-      "@value" : Shaft that connects turbine and rotor
+    '@language': en
+    '@value': Shaft that connects turbine and rotor
   tors:inCoordinate: 0
   tors:outCoordinate: 1
   tors:stiffness: 3.67e8
   tors:damping: 0
 - '@type': tors:Disk
   rdfs:comment:
-      "@language" : en
-      "@value" : Rotor inner part
+    '@language': en
+    '@value': Rotor inner part
   tors:inCoordinate: 1
   tors:inertia: 5770
   tors:damping: 0
 - '@type': tors:ShaftDiscrete
   rdfs:comment:
-      "@language" : en
-      "@value" : Spring that connects inner and outer parts of rotor
+    '@language': en
+    '@value': Spring that connects inner and outer parts of rotor
   tors:inCoordinate: 1
   tors:outCoordinate: 2
   tors:stiffness: 5.496e9
   tors:damping: 0
 - '@type': tors:Disk
   rdfs:comment:
-      "@language" : en
-      "@value" : Rotor outer part
+    '@language': en
+    '@value': Rotor outer part
   tors:inCoordinate: 2
   tors:inertia: 97030
   tors:damping: 0
