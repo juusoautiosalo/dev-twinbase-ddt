@@ -8,5 +8,7 @@ twins:
   name: Windmill turbine component
 - url: https://juusoautiosalo.github.io/dev-twinbase-ddt/e09a43fa-fea6-41e7-907b-3fb5a0d17371
   name: Windmill drivetrain as one component
+- url: https://juusoautiosalo.github.io/dev-twinbase-ddt/1febe1f0-16ff-4245-8fb2-759c93b01808
+  name: Windmill shaft component
 - url: https://juusoautiosalo.github.io/dev-twinbase-ddt/example-twin-e8fde635-e14a-41d7-85f0-676cd10cae32
   name: Example twin
