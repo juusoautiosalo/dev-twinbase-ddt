@@ -25,9 +25,9 @@
                 "@language": "en",
                 "@value": "Rotor inner part"
             },
-            "tors:inCoordinate": 1,
+            "tors:inCoordinate": 0,
             "tors:inertia": 5770,
-            "tors:damping": 0
+            "tors:damping": 1
         },
         {
             "@type": "tors:ShaftDiscrete",
@@ -35,8 +35,8 @@
                 "@language": "en",
                 "@value": "Spring that connects inner and outer parts of rotor"
             },
-            "tors:inCoordinate": 1,
-            "tors:outCoordinate": 2,
+            "tors:inCoordinate": 0,
+            "tors:outCoordinate": 1,
             "tors:stiffness": "5.496e9",
             "tors:damping": 0
         },
@@ -46,7 +46,7 @@
                 "@language": "en",
                 "@value": "Rotor outer part"
             },
-            "tors:inCoordinate": 2,
+            "tors:inCoordinate": 1,
             "tors:inertia": 97030,
             "tors:damping": 0
         }
