@@ -6,7 +6,7 @@
 dt-id: https://dtid.org/2ef85647-aee2-40c5-bb5a-380c9563ed16
 hosting-iri: https://juusoautiosalo.github.io/dev-twinbase-ddt/2ef85647-aee2-40c5-bb5a-380c9563ed16
 name: Windmill drivetrain design template
-description: [Draft] Digital Design Template for windmill drivetrain to be used to construct torsional vibration analysis.
+description: '[Draft] Digital Design Template for windmill drivetrain to be used to construct torsional vibration analysis.'
 '@type': ddt:Template
 ddt:components:
 - ddt:position: 0
