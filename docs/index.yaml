@@ -10,6 +10,8 @@ twins:
   name: Windmill drivetrain design template
 - url: https://juusoautiosalo.github.io/dev-twinbase-ddt/e09a43fa-fea6-41e7-907b-3fb5a0d17371
   name: Windmill drivetrain as one component
+- url: https://juusoautiosalo.github.io/dev-twinbase-ddt/890f7d85-626e-4e05-960e-9d1bc7af32fd
+  name: Windmill assembly instance 1
 - url: https://juusoautiosalo.github.io/dev-twinbase-ddt/1febe1f0-16ff-4245-8fb2-759c93b01808
   name: Windmill shaft component
 - url: https://juusoautiosalo.github.io/dev-twinbase-ddt/efa0d72f-994d-4ad4-9f16-f1565371a18d
