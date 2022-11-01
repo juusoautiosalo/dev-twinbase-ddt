@@ -1,7 +1,21 @@
+'@context':
+- '@vocab': https://twinschema.org/
+- ddt: https://ddt.twinschema.org/
+- tors: https://tors.twinschema.org/
+- rdfs: http://www.w3.org/2000/01/rdf-schema#
 dt-id: https://dtid.org/2d94ede9-eb21-4972-a142-141611ea922e
 hosting-iri: https://juusoautiosalo.github.io/dev-twinbase-ddt/2d94ede9-eb21-4972-a142-141611ea922e
 name: DDT catalogue
-description: Write description here.
+description: This catalogue contains lists of assets that define digital design template 
+'@type': ddt:Catalogue
+ddt:components:
+- dt-id: https://dtid.org/e85c46f4-bdc2-4e0e-acd2-6b0ae582072d
+- dt-id: https://dtid.org/1febe1f0-16ff-4245-8fb2-759c93b01808
+- dt-id: https://dtid.org/efa0d72f-994d-4ad4-9f16-f1565371a18d
+ddt:assemblies:
+- dt-id: https://dtid.org/890f7d85-626e-4e05-960e-9d1bc7af32fd
+ddt:templates:
+- dt-id: https://dtid.org/2ef85647-aee2-40c5-bb5a-380c9563ed16
 baseurl: https://juusoautiosalo.github.io/dev-twinbase-ddt
 edit: https://github.com/juusoautiosalo/dev-twinbase-ddt/edit/main/docs/2d94ede9-eb21-4972-a142-141611ea922e/index.yaml
 edit-json: https://github.com/juusoautiosalo/dev-twinbase-ddt/edit/main/docs/2d94ede9-eb21-4972-a142-141611ea922e/index.json
