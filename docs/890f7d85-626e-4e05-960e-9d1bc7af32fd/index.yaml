@@ -6,7 +6,8 @@
 dt-id: https://dtid.org/890f7d85-626e-4e05-960e-9d1bc7af32fd
 hosting-iri: https://juusoautiosalo.github.io/dev-twinbase-ddt/890f7d85-626e-4e05-960e-9d1bc7af32fd
 name: Windmill assembly instance 1
-description: An example assembly instanse of a windmill with one component for each position. 
+description: An example assembly instanse of a windmill with one component for each
+  position.
 '@type': ddt:Assembly
 ddt:followsTemplate:
   dt-id: https://dtid.org/2ef85647-aee2-40c5-bb5a-380c9563ed16
