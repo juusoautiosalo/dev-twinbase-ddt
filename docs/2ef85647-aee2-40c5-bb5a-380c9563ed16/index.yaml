@@ -9,7 +9,7 @@ name: Windmill drivetrain design template
 description: '[Draft] Digital Design Template for windmill drivetrain to be used to
   construct torsional vibration analysis.'
 '@type': ddt:Template
-ddt:components:
+ddt:template:
 - ddt:position: 0
   ddt:componentType: tors:Turbine
   ddt:requirement:
