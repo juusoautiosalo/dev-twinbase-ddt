@@ -1,7 +1,22 @@
+'@context':
+- '@vocab': https://twinschema.org/
+- ddt: https://ddt.twinschema.org/
+- tors: https://tors.twinschema.org/
+- rdfs: http://www.w3.org/2000/01/rdf-schema#
 dt-id: https://dtid.org/890f7d85-626e-4e05-960e-9d1bc7af32fd
 hosting-iri: https://juusoautiosalo.github.io/dev-twinbase-ddt/890f7d85-626e-4e05-960e-9d1bc7af32fd
 name: Windmill assembly instance 1
-description: Write description here.
+description: An example assembly instanse of a windmill with one component for each position. 
+'@type': ddt:Assembly
+ddt:followsTemplate:
+  dt-id: https://dtid.org/2ef85647-aee2-40c5-bb5a-380c9563ed16
+ddt:Components:
+- ddt:position: 0
+  dt-id: https://dtid.org/e85c46f4-bdc2-4e0e-acd2-6b0ae582072d
+- ddt:position: 1
+  dt-id: https://dtid.org/1febe1f0-16ff-4245-8fb2-759c93b01808
+- ddt:position: 2
+  dt-id: https://dtid.org/efa0d72f-994d-4ad4-9f16-f1565371a18d
 baseurl: https://juusoautiosalo.github.io/dev-twinbase-ddt
 edit: https://github.com/juusoautiosalo/dev-twinbase-ddt/edit/main/docs/890f7d85-626e-4e05-960e-9d1bc7af32fd/index.yaml
 edit-json: https://github.com/juusoautiosalo/dev-twinbase-ddt/edit/main/docs/890f7d85-626e-4e05-960e-9d1bc7af32fd/index.json
