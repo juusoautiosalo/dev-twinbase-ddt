@@ -1,0 +1,9 @@
+{
+    "dt-id": "https://dtid.org/2d94ede9-eb21-4972-a142-141611ea922e",
+    "hosting-iri": "https://juusoautiosalo.github.io/dev-twinbase-ddt/2d94ede9-eb21-4972-a142-141611ea922e",
+    "name": "DDT catalogue",
+    "description": "Write description here.",
+    "baseurl": "https://juusoautiosalo.github.io/dev-twinbase-ddt",
+    "edit": "https://github.com/juusoautiosalo/dev-twinbase-ddt/edit/main/docs/2d94ede9-eb21-4972-a142-141611ea922e/index.yaml",
+    "edit-json": "https://github.com/juusoautiosalo/dev-twinbase-ddt/edit/main/docs/2d94ede9-eb21-4972-a142-141611ea922e/index.json"
+}
