@@ -1,8 +1,0 @@
-dt-id: https://dtid.org/example-twin-e8fde635-e14a-41d7-85f0-676cd10cae32
-hosting-iri: https://juusoautiosalo.github.io/dev-twinbase-ddt/example-twin-e8fde635-e14a-41d7-85f0-676cd10cae32
-name: Example twin
-description: This is an example twin to show what a DT document can look like. You
-  can safely remove the folder that contains this document.
-baseurl: https://juusoautiosalo.github.io/dev-twinbase-ddt
-edit: https://github.com/juusoautiosalo/dev-twinbase-ddt/edit/main/docs/example-twin-e8fde635-e14a-41d7-85f0-676cd10cae32/index.yaml
-edit-json: https://github.com/juusoautiosalo/dev-twinbase-ddt/edit/main/docs/example-twin-e8fde635-e14a-41d7-85f0-676cd10cae32/index.json
