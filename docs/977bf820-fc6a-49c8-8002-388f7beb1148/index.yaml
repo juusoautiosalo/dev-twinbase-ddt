@@ -1,0 +1,19 @@
+'@context':
+- '@vocab': https://twinschema.org/
+- ddt: https://ddt.twinschema.org/
+- tors: https://tors.twinschema.org/
+- rdfs: http://www.w3.org/2000/01/rdf-schema#
+dt-id: autoassign|https://dtid.org
+hosting-iri: autoassign
+name: Windmill turbine component 2
+description: '[Draft] The turbine component of a windmill to be used to construct
+  a torsional vibration analysis via a digital design template.'
+'@type': ddt:Component
+tors:elements:
+- '@type': tors:Disk
+  rdfs:comment:
+    '@language': en
+    '@value': Turbine of the windmill
+  tors:inCoordinate: 0
+  tors:inertia: 9e6
+  tors:damping: 0
