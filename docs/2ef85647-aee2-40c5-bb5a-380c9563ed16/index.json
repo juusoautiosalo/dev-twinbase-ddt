@@ -18,30 +18,42 @@
     "name": "Windmill drivetrain design template",
     "description": "[Draft] Digital Design Template for windmill drivetrain to be used to construct torsional vibration analysis.",
     "@type": "ddt:Template",
-    "ddt:template": [
+    "ddt:assemblyTemplate": [
         {
             "ddt:position": 0,
             "ddt:componentType": "tors:Turbine",
-            "ddt:requirement": {
-                "tors:power": 500000,
-                "ddt:condition": "ddt:equal"
-            }
+            "ddt:requirements": [
+                {
+                    "ddt:requirementValue": {
+                        "tors:power": 500000
+                    },
+                    "ddt:requirementType": "ddt:Equal"
+                }
+            ]
         },
         {
             "ddt:position": 1,
             "ddt:componentType": "tors:Shaft",
-            "ddt:requirement": {
-                "tors:length": 5,
-                "ddt:condition": "ddt:equal"
-            }
+            "ddt:requirements": [
+                {
+                    "ddt:requirementValue": {
+                        "tors:length": 5
+                    },
+                    "ddt:requirementType": "ddt:Equal"
+                }
+            ]
         },
         {
             "ddt:position": 2,
             "ddt:componentType": "tors:Rotor",
-            "ddt:requirement": {
-                "tors:power": 500000,
-                "ddt:condition": "ddt:greaterOrEqual"
-            }
+            "ddt:requirements": [
+                {
+                    "ddt:requirementValue": {
+                        "tors:power": 500000
+                    },
+                    "ddt:requirementType": "ddt:GreaterThanOrEqual"
+                }
+            ]
         }
     ],
     "baseurl": "https://juusoautiosalo.github.io/dev-twinbase-ddt",
