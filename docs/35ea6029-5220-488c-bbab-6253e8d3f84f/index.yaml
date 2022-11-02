@@ -3,8 +3,8 @@
 - ddt: https://ddt.twinschema.org/
 - tors: https://tors.twinschema.org/
 - rdfs: http://www.w3.org/2000/01/rdf-schema#
-dt-id: autoassign|https://dtid.org
-hosting-iri: autoassign
+dt-id: https://dtid.org/35ea6029-5220-488c-bbab-6253e8d3f84f
+hosting-iri: https://juusoautiosalo.github.io/dev-twinbase-ddt/35ea6029-5220-488c-bbab-6253e8d3f84f
 name: Windmill rotor component 2
 description: '[Draft] The rotor component of a windmill to be used to construct a
   torsional vibration analysis via a digital design template.'
@@ -32,3 +32,6 @@ tors:elements:
   tors:inCoordinate: 1
   tors:inertia: 90030
   tors:damping: 0
+baseurl: https://juusoautiosalo.github.io/dev-twinbase-ddt
+edit: https://github.com/juusoautiosalo/dev-twinbase-ddt/edit/main/docs/35ea6029-5220-488c-bbab-6253e8d3f84f/index.yaml
+edit-json: https://github.com/juusoautiosalo/dev-twinbase-ddt/edit/main/docs/35ea6029-5220-488c-bbab-6253e8d3f84f/index.json
