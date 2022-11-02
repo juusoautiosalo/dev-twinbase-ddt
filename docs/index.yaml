@@ -6,6 +6,8 @@ new_twin_url: https://github.com/juusoautiosalo/dev-twinbase-ddt/new/main?filena
 twins:
 - url: https://juusoautiosalo.github.io/dev-twinbase-ddt/e85c46f4-bdc2-4e0e-acd2-6b0ae582072d
   name: Windmill turbine component
+- url: https://juusoautiosalo.github.io/dev-twinbase-ddt/977bf820-fc6a-49c8-8002-388f7beb1148
+  name: Windmill turbine component 2
 - url: https://juusoautiosalo.github.io/dev-twinbase-ddt/2ef85647-aee2-40c5-bb5a-380c9563ed16
   name: Windmill drivetrain design template
 - url: https://juusoautiosalo.github.io/dev-twinbase-ddt/2d94ede9-eb21-4972-a142-141611ea922e
