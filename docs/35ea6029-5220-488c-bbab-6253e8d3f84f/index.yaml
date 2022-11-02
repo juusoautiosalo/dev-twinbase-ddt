@@ -1,0 +1,34 @@
+'@context':
+- '@vocab': https://twinschema.org/
+- ddt: https://ddt.twinschema.org/
+- tors: https://tors.twinschema.org/
+- rdfs: http://www.w3.org/2000/01/rdf-schema#
+dt-id: autoassign|https://dtid.org
+hosting-iri: autoassign
+name: Windmill rotor component 2
+description: '[Draft] The rotor component of a windmill to be used to construct a
+  torsional vibration analysis via a digital design template.'
+'@type': ddt:Component
+tors:elements:
+- '@type': tors:Disk
+  rdfs:comment:
+    '@language': en
+    '@value': Rotor inner part
+  tors:inCoordinate: 0
+  tors:inertia: 5660
+  tors:damping: 1
+- '@type': tors:ShaftDiscrete
+  rdfs:comment:
+    '@language': en
+    '@value': Spring that connects inner and outer parts of rotor
+  tors:inCoordinate: 0
+  tors:outCoordinate: 1
+  tors:stiffness: 5.496e9
+  tors:damping: 0
+- '@type': tors:Disk
+  rdfs:comment:
+    '@language': en
+    '@value': Rotor outer part
+  tors:inCoordinate: 1
+  tors:inertia: 90030
+  tors:damping: 0
