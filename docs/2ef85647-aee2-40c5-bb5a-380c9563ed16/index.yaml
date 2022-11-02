@@ -28,6 +28,17 @@ ddt:assemblyTemplate:
   - ddt:requirementValue:
       tors:power: 500000
     ddt:requirementType: ddt:GreaterThanOrEqual
+ddt:analysisRuns:
+- ddt:analysisType: tors:TorqueAmplitudeAnalysis
+  ddt:analysisParameters:
+    tors:rpmLinspace:
+      tors:startLinspace: 0.1
+      tors:stopLinspace: 25
+      tors:numLinspace: 5000
+  ddt:requirements:
+  - ddt:requirementValue:
+      tors:torqueMaxAmplitude: 1200000
+    ddt:requirementType: ddt:LowerThan
 baseurl: https://juusoautiosalo.github.io/dev-twinbase-ddt
 edit: https://github.com/juusoautiosalo/dev-twinbase-ddt/edit/main/docs/2ef85647-aee2-40c5-bb5a-380c9563ed16/index.yaml
 edit-json: https://github.com/juusoautiosalo/dev-twinbase-ddt/edit/main/docs/2ef85647-aee2-40c5-bb5a-380c9563ed16/index.json
