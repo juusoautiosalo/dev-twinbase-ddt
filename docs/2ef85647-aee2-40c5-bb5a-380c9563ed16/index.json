@@ -27,7 +27,7 @@
                     "ddt:requirementValue": {
                         "tors:power": 500000
                     },
-                    "ddt:requirementType": "ddt:Equal"
+                    "@type": "ddt:Equal"
                 }
             ]
         },
@@ -39,7 +39,7 @@
                     "ddt:requirementValue": {
                         "tors:length": 5
                     },
-                    "ddt:requirementType": "ddt:Equal"
+                    "@type": "ddt:Equal"
                 }
             ]
         },
@@ -51,7 +51,7 @@
                     "ddt:requirementValue": {
                         "tors:power": 500000
                     },
-                    "ddt:requirementType": "ddt:GreaterThanOrEqual"
+                    "@type": "ddt:GreaterThanOrEqual"
                 }
             ]
         }
@@ -71,7 +71,7 @@
                     "ddt:requirementValue": {
                         "tors:torqueMaxAmplitude": 1200000
                     },
-                    "ddt:requirementType": "ddt:LowerThan"
+                    "@type": "ddt:LowerThan"
                 }
             ]
         }
