@@ -15,19 +15,19 @@ ddt:assemblyTemplate:
   ddt:requirements:
   - ddt:requirementValue:
       tors:power: 500000
-    ddt:requirementType: ddt:Equal
+    '@type': ddt:Equal
 - ddt:position: 1
   ddt:componentType: tors:Shaft
   ddt:requirements:
   - ddt:requirementValue:
       tors:length: 5
-    ddt:requirementType: ddt:Equal
+    '@type': ddt:Equal
 - ddt:position: 2
   ddt:componentType: tors:Rotor
   ddt:requirements:
   - ddt:requirementValue:
       tors:power: 500000
-    ddt:requirementType: ddt:GreaterThanOrEqual
+    '@type': ddt:GreaterThanOrEqual
 ddt:analysisRuns:
 - ddt:analysisType: tors:TorqueAmplitudeAnalysis
   ddt:analysisParameters:
@@ -38,7 +38,7 @@ ddt:analysisRuns:
   ddt:requirements:
   - ddt:requirementValue:
       tors:torqueMaxAmplitude: 1200000
-    ddt:requirementType: ddt:LowerThan
+    '@type': ddt:LowerThan
 baseurl: https://juusoautiosalo.github.io/dev-twinbase-ddt
 edit: https://github.com/juusoautiosalo/dev-twinbase-ddt/edit/main/docs/2ef85647-aee2-40c5-bb5a-380c9563ed16/index.yaml
 edit-json: https://github.com/juusoautiosalo/dev-twinbase-ddt/edit/main/docs/2ef85647-aee2-40c5-bb5a-380c9563ed16/index.json
