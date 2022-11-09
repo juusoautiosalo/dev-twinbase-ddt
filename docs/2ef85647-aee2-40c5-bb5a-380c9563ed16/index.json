@@ -21,7 +21,7 @@
     "ddt:assemblyTemplate": [
         {
             "ddt:position": 0,
-            "ddt:componentType": "tors:Turbine",
+            "@type": "tors:Turbine",
             "ddt:requirements": [
                 {
                     "ddt:requirementValue": {
@@ -33,7 +33,7 @@
         },
         {
             "ddt:position": 1,
-            "ddt:componentType": "tors:Shaft",
+            "@type": "tors:Shaft",
             "ddt:requirements": [
                 {
                     "ddt:requirementValue": {
@@ -45,7 +45,7 @@
         },
         {
             "ddt:position": 2,
-            "ddt:componentType": "tors:Rotor",
+            "@type": "tors:Rotor",
             "ddt:requirements": [
                 {
                     "ddt:requirementValue": {
@@ -58,7 +58,7 @@
     ],
     "ddt:analysisRuns": [
         {
-            "ddt:analysisType": "tors:TorqueAmplitudeAnalysis",
+            "@type": "tors:TorqueAmplitudeAnalysis",
             "ddt:analysisParameters": {
                 "tors:rpmLinspace": {
                     "tors:startLinspace": 0.1,
