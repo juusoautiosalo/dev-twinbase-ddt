@@ -8,7 +8,7 @@ hosting-iri: https://juusoautiosalo.github.io/dev-twinbase-ddt/e85c46f4-bdc2-4e0
 name: Windmill turbine component
 description: '[Draft] The turbine component of a windmill to be used to construct
   a torsional vibration analysis via a digital design template.'
-'@type': 
+'@type':
 - ddt:Component
 - tors:Turbine
 tors:elements:
