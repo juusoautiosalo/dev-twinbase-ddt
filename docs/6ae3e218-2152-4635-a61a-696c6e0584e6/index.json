@@ -17,7 +17,10 @@
     "hosting-iri": "https://juusoautiosalo.github.io/dev-twinbase-ddt/6ae3e218-2152-4635-a61a-696c6e0584e6",
     "name": "Windmill shaft component 2",
     "description": "[Draft] The shaft component of a windmill to be used to construct a torsional vibration analysis via a digital design template.",
-    "@type": "ddt:Component",
+    "@type": [
+        "ddt:Component",
+        "tors:Shaft"
+    ],
     "tors:elements": [
         {
             "@type": "tors:ShaftDiscrete",
