@@ -11,25 +11,25 @@ description: '[Draft] Digital Design Template for windmill drivetrain to be used
 '@type': ddt:Template
 ddt:assemblyTemplate:
 - ddt:position: 0
-  ddt:componentType: tors:Turbine
+  '@type': tors:Turbine
   ddt:requirements:
   - ddt:requirementValue:
       tors:power: 500000
     '@type': ddt:Equal
 - ddt:position: 1
-  ddt:componentType: tors:Shaft
+  '@type': tors:Shaft
   ddt:requirements:
   - ddt:requirementValue:
       tors:length: 5
     '@type': ddt:Equal
 - ddt:position: 2
-  ddt:componentType: tors:Rotor
+  '@type': tors:Rotor
   ddt:requirements:
   - ddt:requirementValue:
       tors:power: 500000
     '@type': ddt:GreaterThanOrEqual
 ddt:analysisRuns:
-- ddt:analysisType: tors:TorqueAmplitudeAnalysis
+- '@type': tors:TorqueAmplitudeAnalysis
   ddt:analysisParameters:
     tors:rpmLinspace:
       tors:startLinspace: 0.1
