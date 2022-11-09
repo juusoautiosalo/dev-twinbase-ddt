@@ -11,6 +11,7 @@ description: '[Draft] The turbine component of a windmill to be used to construc
 '@type':
 - ddt:Component
 - tors:Turbine
+tors:power: 450000
 tors:elements:
 - '@type': tors:Disk
   rdfs:comment:
