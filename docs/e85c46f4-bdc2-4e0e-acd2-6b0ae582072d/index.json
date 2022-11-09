@@ -21,6 +21,7 @@
         "ddt:Component",
         "tors:Turbine"
     ],
+    "tors:power": 500000,
     "tors:elements": [
         {
             "@type": "tors:Disk",
