@@ -34,6 +34,20 @@ tors:elements:
   tors:inCoordinate: 1
   tors:inertia: 97030
   tors:damping: 0
+ddt:properties:
+- '@type': tors:Excitation
+  rdfs:comment:
+    '@language': en
+    '@value': Definition of excitations caused by this component. The excitation values are defined in tors:excitationValuesRpmPercentage as list of two-item lists that contain 1) the RPM multiple and 2) the value of excitation in percentages.
+  tors:inCoordinate: 1
+  tors:excitationValuesRpmPercentage:  
+  - [4,  0.0018]
+  - [6,  0.0179]
+  - [8,  0.0024]
+  - [10, 0.0034]
+  - [12, 0.0117]
+  - [14, 0.0018]
+  - [16, 0.0011]
 baseurl: https://juusoautiosalo.github.io/dev-twinbase-ddt
 edit: https://github.com/juusoautiosalo/dev-twinbase-ddt/edit/main/docs/efa0d72f-994d-4ad4-9f16-f1565371a18d/index.yaml
 edit-json: https://github.com/juusoautiosalo/dev-twinbase-ddt/edit/main/docs/efa0d72f-994d-4ad4-9f16-f1565371a18d/index.json

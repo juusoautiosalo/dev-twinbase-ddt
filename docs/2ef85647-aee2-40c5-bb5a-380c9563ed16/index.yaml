@@ -25,9 +25,17 @@ ddt:assemblyTemplate:
 - ddt:position: 2
   '@type': tors:Rotor
   ddt:requirements:
-  - ddt:requirementValue:
+  - '@type': ddt:GreaterThanOrEqual
+    ddt:requirementValue:
       tors:power: 500000
-    '@type': ddt:GreaterThanOrEqual
+  - '@type': ddt:MustBeDefined
+    ddt:mustBeDefined:
+    - '@type': tors:Excitation
+      ddt:mustIncludeProperty:
+        tors:excitationValuesRpmPercentage: null
+      rdfs:comment:
+        '@language': en
+        '@value': The excitation properties of this component must be defined according to the https://tors.twinschema.org/Excitation type and include the https://tors.twinschema.org/excitationValuesRpmPercentage property.
 ddt:analysisRuns:
 - '@type': tors:TorqueAmplitudeAnalysis
   ddt:analysisParameters:
@@ -36,9 +44,9 @@ ddt:analysisRuns:
       tors:stopLinspace: 25
       tors:numLinspace: 5000
   ddt:requirements:
-  - ddt:requirementValue:
+  - '@type': ddt:LowerThan
+    ddt:requirementValue:
       tors:torqueMaxAmplitude: 1200000
-    '@type': ddt:LowerThan
 baseurl: https://juusoautiosalo.github.io/dev-twinbase-ddt
 edit: https://github.com/juusoautiosalo/dev-twinbase-ddt/edit/main/docs/2ef85647-aee2-40c5-bb5a-380c9563ed16/index.yaml
 edit-json: https://github.com/juusoautiosalo/dev-twinbase-ddt/edit/main/docs/2ef85647-aee2-40c5-bb5a-380c9563ed16/index.json
