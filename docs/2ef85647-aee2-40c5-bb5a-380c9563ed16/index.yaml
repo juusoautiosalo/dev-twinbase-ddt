@@ -35,7 +35,9 @@ ddt:assemblyTemplate:
         tors:excitationValuesRpmPercentage: null
       rdfs:comment:
         '@language': en
-        '@value': The excitation properties of this component must be defined according to the https://tors.twinschema.org/Excitation type and include the https://tors.twinschema.org/excitationValuesRpmPercentage property.
+        '@value': The excitation properties of this component must be defined according
+          to the https://tors.twinschema.org/Excitation type and include the https://tors.twinschema.org/excitationValuesRpmPercentage
+          property.
 ddt:analysisRuns:
 - '@type': tors:TorqueAmplitudeAnalysis
   ddt:analysisParameters:
