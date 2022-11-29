@@ -16,7 +16,7 @@
     "apiDefinitions": [
         {
             "@type": "OpenAPIDefinition",
-            "description": "API definition in OpenAPI format https://spec.openapis.org/oas/v3.1.0",
+            "description": "API definition in OpenAPI format https://spec.openapis.org/oas/v3.0.3",
             "apiDocumentUrl": {
                 "yaml": "https://juusoautiosalo.github.io/dev-twinbase-ddt/16b5f878-e6a1-47fc-8b6a-bb168b29dfe8/openapi.yaml",
                 "json": "https://juusoautiosalo.github.io/dev-twinbase-ddt/16b5f878-e6a1-47fc-8b6a-bb168b29dfe8/openapi.json"
