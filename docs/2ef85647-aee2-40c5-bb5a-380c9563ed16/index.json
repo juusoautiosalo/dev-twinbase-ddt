@@ -88,6 +88,11 @@
                         "tors:torqueMaxAmplitude": 1200000
                     }
                 }
+            ],
+            "ddt:suitableAnalysisServices": [
+                {
+                    "dt-id": "https://dtid.org/16b5f878-e6a1-47fc-8b6a-bb168b29dfe8"
+                }
             ]
         }
     ],
