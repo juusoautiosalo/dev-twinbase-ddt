@@ -11,7 +11,9 @@ tors:adheresToStandard: This is a placeholder
 apiDefinitions:
 - '@type': OpenAPIDefinition
   description: API definition in OpenAPI format https://spec.openapis.org/oas/v3.1.0
-  apiDocumentUrl: /openapi.yaml
+  apiDocumentUrl:
+    yaml: https://juusoautiosalo.github.io/dev-twinbase-ddt/16b5f878-e6a1-47fc-8b6a-bb168b29dfe8/openapi.yaml
+    json: https://juusoautiosalo.github.io/dev-twinbase-ddt/16b5f878-e6a1-47fc-8b6a-bb168b29dfe8/openapi.json
 baseurl: https://juusoautiosalo.github.io/dev-twinbase-ddt
 edit: https://github.com/juusoautiosalo/dev-twinbase-ddt/edit/main/docs/16b5f878-e6a1-47fc-8b6a-bb168b29dfe8/index.yaml
 edit-json: https://github.com/juusoautiosalo/dev-twinbase-ddt/edit/main/docs/16b5f878-e6a1-47fc-8b6a-bb168b29dfe8/index.json
