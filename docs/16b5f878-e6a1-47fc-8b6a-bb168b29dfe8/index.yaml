@@ -1,8 +1,17 @@
+'@context':
+- '@vocab': https://twinschema.org/
+- tors: https://tors.twinschema.org/
 dt-id: https://dtid.org/16b5f878-e6a1-47fc-8b6a-bb168b29dfe8
 hosting-iri: https://juusoautiosalo.github.io/dev-twinbase-ddt/16b5f878-e6a1-47fc-8b6a-bb168b29dfe8
 name: Analysis service for torsional vibration
 description: Analysis service that perfoms torsional vibration analyses with the openTorsion
   library.
+'@type': ddt:analysisService
+tors:adheresToStandard: This is a placeholder
+apiDefinitions:
+- '@type': OpenAPIDefinition
+  description: API definition in OpenAPI format https://spec.openapis.org/oas/v3.1.0
+  apiDocumentUrl: /openapi.yaml
 baseurl: https://juusoautiosalo.github.io/dev-twinbase-ddt
 edit: https://github.com/juusoautiosalo/dev-twinbase-ddt/edit/main/docs/16b5f878-e6a1-47fc-8b6a-bb168b29dfe8/index.yaml
 edit-json: https://github.com/juusoautiosalo/dev-twinbase-ddt/edit/main/docs/16b5f878-e6a1-47fc-8b6a-bb168b29dfe8/index.json
