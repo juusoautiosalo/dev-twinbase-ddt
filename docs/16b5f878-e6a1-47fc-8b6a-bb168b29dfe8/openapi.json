@@ -1,0 +1,88 @@
+{
+  "openapi": "3.0.3",
+  "info": {
+    "title": "Analysis service for torsional vibration",
+    "contact": {
+      "name": "Riku Ala-Laurinaho",
+      "url": "https://www.aalto.fi/en/people/riku-ala-laurinaho"
+    },
+    "version": "0.0.1"
+  },
+  "paths": {
+    "/opentorsion": {
+      "post": {
+        "summary": "Runs a torsional vibration analysis.",
+        "requestBody": {
+          "description": "Send a JSON object that contains two objects:\n1. assebly_urls: a list of DTIDs that are used to construct an assembly for the analysis and \n2. linspace: a linspace object that defines the RPM interval of the performed vibration analyses.",
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "assembly_urls": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "linspace": {
+                    "type": "object",
+                    "properties": {
+                      "start": {
+                        "type": "number"
+                      },
+                      "stop": {
+                        "type": "integer"
+                      },
+                      "num": {
+                        "type": "integer"
+                      }
+                    },
+                    "required": [
+                      "start",
+                      "stop",
+                      "num"
+                    ]
+                  }
+                },
+                "required": [
+                  "assembly_urls",
+                  "linspace"
+                ]
+              },
+              "examples": {
+                "windmill": {
+                  "value": {
+                    "assembly_urls": [
+                      "https://dtid.org/e85c46f4-bdc2-4e0e-acd2-6b0ae582072d",
+                      "https://dtid.org/1febe1f0-16ff-4245-8fb2-759c93b01808",
+                      "https://dtid.org/efa0d72f-994d-4ad4-9f16-f1565371a18d"
+                    ],
+                    "linspace": {
+                      "start": 0.1,
+                      "stop": 25,
+                      "num": 5000
+                    }
+                  },
+                  "summary": "Runs a windmill analysis"
+                }
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  },
+  "servers": [
+    {
+      "url": "http://127.0.0.1:5000/v1",
+      "description": "Development server"
+    }
+  ]
+}
