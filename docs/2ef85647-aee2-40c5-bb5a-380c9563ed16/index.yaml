@@ -49,6 +49,8 @@ ddt:analysisRuns:
   - '@type': ddt:LowerThan
     ddt:requirementValue:
       tors:torqueMaxAmplitude: 1200000
+  ddt:suitableAnalysisServices:
+  - dt-id: https://dtid.org/16b5f878-e6a1-47fc-8b6a-bb168b29dfe8
 baseurl: https://juusoautiosalo.github.io/dev-twinbase-ddt
 edit: https://github.com/juusoautiosalo/dev-twinbase-ddt/edit/main/docs/2ef85647-aee2-40c5-bb5a-380c9563ed16/index.yaml
 edit-json: https://github.com/juusoautiosalo/dev-twinbase-ddt/edit/main/docs/2ef85647-aee2-40c5-bb5a-380c9563ed16/index.json
