@@ -3,7 +3,7 @@
 - ddt: https://ddt.twinschema.org/
 - tors: https://tors.twinschema.org/
 - rdfs: http://www.w3.org/2000/01/rdf-schema#
-dtid: https://dtid.org/dc97ef53-2b1c-4d57-9a69-d55664ebe5c5
+dt-id: https://dtid.org/dc97ef53-2b1c-4d57-9a69-d55664ebe5c5
 hosting-iri: autoassign
 name: Windmill shaft 5m 2.69e+08
 description: A shaft component for a windmill to be used to construct a torsional
