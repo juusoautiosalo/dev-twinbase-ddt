@@ -1,0 +1,21 @@
+'@context':
+- '@vocab': https://twinschema.org/
+- ddt: https://ddt.twinschema.org/
+- tors: https://tors.twinschema.org/
+- rdfs: http://www.w3.org/2000/01/rdf-schema#
+dt-id: autoassign|https://dtid.org
+hosting-iri: autoassign
+name: DDT catalogue for measurements
+description: This catalogue lists DT documents for the purpose measuring the performance of the digital design template approach.
+'@type': ddt:Catalogue
+ddt:components:
+- dt-id: https://dtid.org/4f77e62f-1a24-42ab-a749-e82f42ee93d9
+- dt-id: https://dtid.org/8bd4bc8e-dc78-4d7a-9e1a-582b7497d2c0
+- dt-id: https://dtid.org/12fc4487-f3ef-490d-9765-91ee02ebabb4
+- dt-id: https://dtid.org/67afa3f8-56a5-4a4d-ba47-c6cea3dfca18
+- dt-id: https://dtid.org/070eecf7-1545-4224-b2f2-4e759673d484
+- dt-id: https://dtid.org/3348b680-232c-4f2a-86d4-fb76ca6e5a5e
+- dt-id: https://dtid.org/dc97ef53-2b1c-4d57-9a69-d55664ebe5c5
+- dt-id: https://dtid.org/e9862fc6-97ae-4fb5-ba1c-5d35fb58a852
+- dt-id: https://dtid.org/f37cce7d-5f4d-4946-855e-d34132c68ae6
+- dt-id: https://dtid.org/fa789b00-1ed1-41af-9a4f-777f7c551b89
