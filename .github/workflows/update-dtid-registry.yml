@@ -1,0 +1,32 @@
+# This workflow uses the YAML versions of twindocs to update DTID entries in DTID registry.
+
+# Requires functioning API KEY to the DTID registry, i.e. Rebrandly in the current implementation.
+
+# Run this workflow manually if you want to update the DTIDs according to this Twinbase repository.
+
+# Warning: The DTID entries will be overwritten, they might stop working for other Twinbase instances.
+
+name: Update DTID registry
+
+# Controls when the action will run.
+on:
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/setup-python@v2
+      with:
+        python-version: '3.8'
+    - name: Install python dependencies
+      run: |
+        python3 -m pip install --upgrade pip
+        pip install -r requirements.txt
+    - name: Update DTIDs
+      run: |
+        cd docs/
+        python3 ${GITHUB_WORKSPACE}/.github/update-dtid-registry.py
+        cd ..
+        echo "Finished updating DTID registry."
