@@ -26,6 +26,10 @@ jobs:
         python3 -m pip install --upgrade pip
         pip install -r requirements.txt
     - name: Update DTIDs
+      # Set encrypted secret REBRANDLY_API_KEY as environment variable
+      # https://docs.github.com/en/actions/security-guides/encrypted-secrets#using-encrypted-secrets-in-a-workflow
+      env:
+        REBRANDLY_API_KEY: ${{ secrets.REBRANDLY_API_KEY }}
       run: |
         cd docs/
         python3 ${GITHUB_WORKSPACE}/.github/update-dtid-registry.py
