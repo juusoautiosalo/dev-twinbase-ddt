@@ -49,23 +49,31 @@
   <script>
     document.body.onload = addElement;
 
-    function addElement () {
-      fetch('index.json')
-      .then(response => response.json())
-      .then(basedoc => {
-        for(var i = 0; i < basedoc.twins.length; i++) {
-          var twinLi = document.createElement("li");
-          const twinA = document.createElement("a");
-          twinA.href = basedoc.twins[i].url;
-          var twinText = document.createTextNode(basedoc.twins[i].name);
-          twinA.appendChild(twinText);
-          twinLi.appendChild(twinA);
-          document.getElementById('twinbase').href = basedoc.baseurl;
-          document.getElementById("twinList").appendChild(twinLi);
-          document.getElementById('repo').href = basedoc.repo_url;
-          document.getElementById('repolink').href = basedoc.repo_url;
-        }
-      })
+    async function addElement () {
+      var basedoc = await getDoc()
+      var twins = basedoc.twins.sort(function(a,b){
+        return (a.name.toLowerCase() > b.name.toLowerCase()) - 0.5;
+      });
+
+      for(var i = 0; i < twins.length; i++) {
+        var twinLi = document.createElement("li");
+        const twinA = document.createElement("a");
+        twinA.href = twins[i].url;
+        var twinText = document.createTextNode(twins[i].name);
+        twinA.appendChild(twinText);
+        twinLi.appendChild(twinA);
+        document.getElementById("twinList").appendChild(twinLi);
+      }
+      
+      document.getElementById('twinbase').href = basedoc.baseurl;
+      document.getElementById('repo').href = basedoc.repo_url;
+      document.getElementById('repolink').href = basedoc.repo_url;
+    }
+
+    async function getDoc() {
+        return fetch('index.json')
+            .then((response)=>response.json())
+            .then((responseDoc)=>{return responseDoc});
     }
   </script>
 
