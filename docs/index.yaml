@@ -8,6 +8,8 @@ twins:
   name: Windmill shaft 5m 3.37e+08
 - url: https://juusoautiosalo.github.io/dev-twinbase-ddt/efa0d72f-994d-4ad4-9f16-f1565371a18d
   name: Windmill rotor component
+- url: https://juusoautiosalo.github.io/dev-twinbase-ddt/f8bf62fb-ec12-44b3-9d8c-02a124000788
+  name: Windmill shaft 6m 4.17e+08
 - url: https://juusoautiosalo.github.io/dev-twinbase-ddt/dc97ef53-2b1c-4d57-9a69-d55664ebe5c5
   name: Windmill shaft 5m 2.69e+08
 - url: https://juusoautiosalo.github.io/dev-twinbase-ddt/6ae3e218-2152-4635-a61a-696c6e0584e6
@@ -18,18 +20,28 @@ twins:
   name: Windmill shaft 5m 3.54e+08
 - url: https://juusoautiosalo.github.io/dev-twinbase-ddt/2ef85647-aee2-40c5-bb5a-380c9563ed16
   name: Windmill drivetrain design template
+- url: https://juusoautiosalo.github.io/dev-twinbase-ddt/ae5c5dcf-2e36-4c57-9f29-8226f7ba1c4b
+  name: Windmill shaft 6m 1.72e+08
 - url: https://juusoautiosalo.github.io/dev-twinbase-ddt/16b5f878-e6a1-47fc-8b6a-bb168b29dfe8
   name: Analysis service for torsional vibration
 - url: https://juusoautiosalo.github.io/dev-twinbase-ddt/35ea6029-5220-488c-bbab-6253e8d3f84f
   name: Windmill rotor component 2
+- url: https://juusoautiosalo.github.io/dev-twinbase-ddt/605c5348-5220-4d33-99d9-346f2807b520
+  name: Windmill shaft 6m 4.40e+08
 - url: https://juusoautiosalo.github.io/dev-twinbase-ddt/e85c46f4-bdc2-4e0e-acd2-6b0ae582072d
   name: Windmill turbine component
+- url: https://juusoautiosalo.github.io/dev-twinbase-ddt/0a01e16b-9e86-4225-9bec-111ec9511e3e
+  name: Windmill shaft 6m 3.36e+08
 - url: https://juusoautiosalo.github.io/dev-twinbase-ddt/f37cce7d-5f4d-4946-855e-d34132c68ae6
   name: Windmill shaft 5m 3.77e+08
+- url: https://juusoautiosalo.github.io/dev-twinbase-ddt/269a175b-b2b9-4b25-8840-49acf3dbffda
+  name: Windmill shaft 6m 4.35e+08
 - url: https://juusoautiosalo.github.io/dev-twinbase-ddt/fa789b00-1ed1-41af-9a4f-777f7c551b89
   name: Windmill shaft 5m 2.10e+08
 - url: https://juusoautiosalo.github.io/dev-twinbase-ddt/977bf820-fc6a-49c8-8002-388f7beb1148
   name: Windmill turbine component 2
+- url: https://juusoautiosalo.github.io/dev-twinbase-ddt/61ed8ccd-d8de-45df-833a-168c202d2522
+  name: Windmill shaft 6m 2.37e+08
 - url: https://juusoautiosalo.github.io/dev-twinbase-ddt/4802e224-b05d-45df-9b5e-35a8f23af79f
   name: DDT catalogue for measurements
 - url: https://juusoautiosalo.github.io/dev-twinbase-ddt/2d94ede9-eb21-4972-a142-141611ea922e
@@ -38,15 +50,25 @@ twins:
   name: Windmill assembly instance 1
 - url: https://juusoautiosalo.github.io/dev-twinbase-ddt/4f77e62f-1a24-42ab-a749-e82f42ee93d9
   name: Windmill shaft 5m 2.60e+08
+- url: https://juusoautiosalo.github.io/dev-twinbase-ddt/ff411c0d-9b24-47cf-bb7c-41e84a0f1965
+  name: Windmill shaft 6m 5.01e+08
 - url: https://juusoautiosalo.github.io/dev-twinbase-ddt/67afa3f8-56a5-4a4d-ba47-c6cea3dfca18
   name: Windmill shaft 5m 2.43e+08
 - url: https://juusoautiosalo.github.io/dev-twinbase-ddt/e09a43fa-fea6-41e7-907b-3fb5a0d17371
   name: Windmill drivetrain as one component
 - url: https://juusoautiosalo.github.io/dev-twinbase-ddt/19881d3b-5a76-4c41-be33-21a91ec85238
   name: DDT catalogue mini
+- url: https://juusoautiosalo.github.io/dev-twinbase-ddt/7f386011-2f13-4774-803b-053ec7270788
+  name: Windmill shaft 6m 2.87e+08
 - url: https://juusoautiosalo.github.io/dev-twinbase-ddt/8bd4bc8e-dc78-4d7a-9e1a-582b7497d2c0
   name: Windmill shaft 5m 2.49e+08
 - url: https://juusoautiosalo.github.io/dev-twinbase-ddt/12fc4487-f3ef-490d-9765-91ee02ebabb4
   name: Windmill shaft 5m 3.68e+08
+- url: https://juusoautiosalo.github.io/dev-twinbase-ddt/8813db90-4285-410f-baac-42cf5a80f341
+  name: Windmill shaft 6m 4.15e+08
+- url: https://juusoautiosalo.github.io/dev-twinbase-ddt/251b3eba-cb6a-46f7-bb46-e74a31035b13
+  name: Windmill shaft 6m 4.31e+08
+- url: https://juusoautiosalo.github.io/dev-twinbase-ddt/7932202c-9889-4c33-b21e-d4c51c30fdc2
+  name: Windmill shaft 6m 3.75e+08
 - url: https://juusoautiosalo.github.io/dev-twinbase-ddt/1febe1f0-16ff-4245-8fb2-759c93b01808
   name: Windmill shaft component
