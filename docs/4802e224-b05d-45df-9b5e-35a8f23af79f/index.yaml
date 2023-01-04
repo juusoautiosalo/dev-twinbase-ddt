@@ -20,6 +20,17 @@ ddt:components:
 - dt-id: https://dtid.org/e9862fc6-97ae-4fb5-ba1c-5d35fb58a852
 - dt-id: https://dtid.org/f37cce7d-5f4d-4946-855e-d34132c68ae6
 - dt-id: https://dtid.org/fa789b00-1ed1-41af-9a4f-777f7c551b89
+- dt-id: https://dtid.org/ff411c0d-9b24-47cf-bb7c-41e84a0f1965
+- dt-id: https://dtid.org/61ed8ccd-d8de-45df-833a-168c202d2522
+- dt-id: https://dtid.org/0a01e16b-9e86-4225-9bec-111ec9511e3e
+- dt-id: https://dtid.org/605c5348-5220-4d33-99d9-346f2807b520
+- dt-id: https://dtid.org/251b3eba-cb6a-46f7-bb46-e74a31035b13
+- dt-id: https://dtid.org/7932202c-9889-4c33-b21e-d4c51c30fdc2
+- dt-id: https://dtid.org/ae5c5dcf-2e36-4c57-9f29-8226f7ba1c4b
+- dt-id: https://dtid.org/269a175b-b2b9-4b25-8840-49acf3dbffda
+- dt-id: https://dtid.org/7f386011-2f13-4774-803b-053ec7270788
+- dt-id: https://dtid.org/f8bf62fb-ec12-44b3-9d8c-02a124000788
+- dt-id: https://dtid.org/8813db90-4285-410f-baac-42cf5a80f341
 baseurl: https://juusoautiosalo.github.io/dev-twinbase-ddt
 edit: https://github.com/juusoautiosalo/dev-twinbase-ddt/edit/main/docs/4802e224-b05d-45df-9b5e-35a8f23af79f/index.yaml
 edit-json: https://github.com/juusoautiosalo/dev-twinbase-ddt/edit/main/docs/4802e224-b05d-45df-9b5e-35a8f23af79f/index.json
