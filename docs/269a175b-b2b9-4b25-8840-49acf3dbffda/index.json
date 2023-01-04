@@ -1,0 +1,41 @@
+{
+    "@context": [
+        {
+            "@vocab": "https://twinschema.org/"
+        },
+        {
+            "ddt": "https://ddt.twinschema.org/"
+        },
+        {
+            "tors": "https://tors.twinschema.org/"
+        },
+        {
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+        }
+    ],
+    "dt-id": "https://dtid.org/269a175b-b2b9-4b25-8840-49acf3dbffda",
+    "hosting-iri": "https://juusoautiosalo.github.io/dev-twinbase-ddt/269a175b-b2b9-4b25-8840-49acf3dbffda",
+    "name": "Windmill shaft 6m 4.35e+08",
+    "description": "A shaft component for a windmill to be used to construct a torsional vibration analysis via a digital design template.",
+    "@type": [
+        "ddt:Component",
+        "tors:Shaft"
+    ],
+    "tors:length": 6,
+    "tors:elements": [
+        {
+            "@type": "tors:ShaftDiscrete",
+            "rdfs:comment": {
+                "@language": "en",
+                "@value": "Shaft that connects turbine and rotor"
+            },
+            "tors:inCoordinate": 0,
+            "tors:outCoordinate": 1,
+            "tors:damping": 0,
+            "tors:stiffness": "4.35e+08"
+        }
+    ],
+    "baseurl": "https://juusoautiosalo.github.io/dev-twinbase-ddt",
+    "edit": "https://github.com/juusoautiosalo/dev-twinbase-ddt/edit/main/docs/269a175b-b2b9-4b25-8840-49acf3dbffda/index.yaml",
+    "edit-json": "https://github.com/juusoautiosalo/dev-twinbase-ddt/edit/main/docs/269a175b-b2b9-4b25-8840-49acf3dbffda/index.json"
+}

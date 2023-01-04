@@ -4,7 +4,7 @@
 - tors: https://tors.twinschema.org/
 - rdfs: http://www.w3.org/2000/01/rdf-schema#
 dt-id: https://dtid.org/ae5c5dcf-2e36-4c57-9f29-8226f7ba1c4b
-hosting-iri: autoassign
+hosting-iri: https://juusoautiosalo.github.io/dev-twinbase-ddt/ae5c5dcf-2e36-4c57-9f29-8226f7ba1c4b
 name: Windmill shaft 6m 1.72e+08
 description: A shaft component for a windmill to be used to construct a torsional
   vibration analysis via a digital design template.
@@ -21,3 +21,6 @@ tors:elements:
   tors:outCoordinate: 1
   tors:damping: 0
   tors:stiffness: '1.72e+08'
+baseurl: https://juusoautiosalo.github.io/dev-twinbase-ddt
+edit: https://github.com/juusoautiosalo/dev-twinbase-ddt/edit/main/docs/ae5c5dcf-2e36-4c57-9f29-8226f7ba1c4b/index.yaml
+edit-json: https://github.com/juusoautiosalo/dev-twinbase-ddt/edit/main/docs/ae5c5dcf-2e36-4c57-9f29-8226f7ba1c4b/index.json
