@@ -4,7 +4,7 @@
 - tors: https://tors.twinschema.org/
 - rdfs: http://www.w3.org/2000/01/rdf-schema#
 dt-id: https://dtid.org/ec7bacbe-6c07-433f-aca6-24f284e923cd
-hosting-iri: autoassign
+hosting-iri: https://juusoautiosalo.github.io/dev-twinbase-ddt/ec7bacbe-6c07-433f-aca6-24f284e923cd
 name: Windmill turbine 500000 1.22e+07
 description: A turbine component for a windmill to be used to construct a torsional
   vibration analysis via a digital design template.
@@ -20,3 +20,6 @@ tors:elements:
   tors:inCoordinate: 0
   tors:damping: 0
   tors:inertia: '1.22e+07'
+baseurl: https://juusoautiosalo.github.io/dev-twinbase-ddt
+edit: https://github.com/juusoautiosalo/dev-twinbase-ddt/edit/main/docs/ec7bacbe-6c07-433f-aca6-24f284e923cd/index.yaml
+edit-json: https://github.com/juusoautiosalo/dev-twinbase-ddt/edit/main/docs/ec7bacbe-6c07-433f-aca6-24f284e923cd/index.json

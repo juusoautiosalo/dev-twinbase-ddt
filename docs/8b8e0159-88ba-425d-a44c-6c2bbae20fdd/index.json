@@ -1,0 +1,40 @@
+{
+    "@context": [
+        {
+            "@vocab": "https://twinschema.org/"
+        },
+        {
+            "ddt": "https://ddt.twinschema.org/"
+        },
+        {
+            "tors": "https://tors.twinschema.org/"
+        },
+        {
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+        }
+    ],
+    "dt-id": "https://dtid.org/8b8e0159-88ba-425d-a44c-6c2bbae20fdd",
+    "hosting-iri": "https://juusoautiosalo.github.io/dev-twinbase-ddt/8b8e0159-88ba-425d-a44c-6c2bbae20fdd",
+    "name": "Windmill turbine 500000 1.28e+07",
+    "description": "A turbine component for a windmill to be used to construct a torsional vibration analysis via a digital design template.",
+    "@type": [
+        "ddt:Component",
+        "tors:Turbine"
+    ],
+    "tors:power": 500000,
+    "tors:elements": [
+        {
+            "@type": "tors:Disk",
+            "rdfs:comment": {
+                "@language": "en",
+                "@value": "Turbine for a windmill"
+            },
+            "tors:inCoordinate": 0,
+            "tors:damping": 0,
+            "tors:inertia": "1.28e+07"
+        }
+    ],
+    "baseurl": "https://juusoautiosalo.github.io/dev-twinbase-ddt",
+    "edit": "https://github.com/juusoautiosalo/dev-twinbase-ddt/edit/main/docs/8b8e0159-88ba-425d-a44c-6c2bbae20fdd/index.yaml",
+    "edit-json": "https://github.com/juusoautiosalo/dev-twinbase-ddt/edit/main/docs/8b8e0159-88ba-425d-a44c-6c2bbae20fdd/index.json"
+}
