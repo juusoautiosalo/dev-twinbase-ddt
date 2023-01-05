@@ -1,0 +1,60 @@
+'@context':
+- '@vocab': https://twinschema.org/
+- ddt: https://ddt.twinschema.org/
+- tors: https://tors.twinschema.org/
+- rdfs: http://www.w3.org/2000/01/rdf-schema#
+dt-id: https://dtid.org/6d38c494-2bc1-40c1-ab59-dd9f51d7eb01
+hosting-iri: autoassign
+name: Windmill rotor 400000 exc 3.43e+03
+description: A rotor component for a windmill to be used to construct a torsional
+  vibration analysis via a digital design template.
+'@type':
+- ddt:Component
+- tors:Rotor
+tors:power: 400000
+tors:elements:
+- '@type': tors:Disk
+  rdfs:comment:
+    '@language': en
+    '@value': Rotor inner part
+  tors:inCoordinate: 0
+  tors:inertia: '3.43e+03'
+  tors:damping: 1
+- '@type': tors:ShaftDiscrete
+  rdfs:comment:
+    '@language': en
+    '@value': Spring that connects inner and outer parts of rotor
+  tors:inCoordinate: 0
+  tors:outCoordinate: 1
+  tors:stiffness: '5.55e+09'
+  tors:damping: 0
+- '@type': tors:Disk
+  rdfs:comment:
+    '@language': en
+    '@value': Rotor outer part
+  tors:inCoordinate: 1
+  tors:inertia: '9.52e+04'
+  tors:damping: 0
+tors:properties:
+- '@type': tors:Excitation
+  rdfs:comment:
+    '@language': en
+    '@value': Definition of excitations caused by this component. The excitation values
+      are defined in tors:excitationValuesRpmPercentage as list of two-item lists
+      that contain 1) the RPM multiple and 2) the value of excitation in percentages.
+  tors:inCoordinate: 1
+  tors:excitationValuesRpmPercentage:
+  - - 4
+    - 0.001466
+  - - 6
+    - 0.02026
+  - - 8
+    - 0.002442
+  - - 10
+    - 0.003751
+  - - 12
+    - 0.01392
+  - - 14
+    - 0.001561
+  - - 16
+    - 0.001928
