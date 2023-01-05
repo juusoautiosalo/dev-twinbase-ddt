@@ -4,7 +4,7 @@
 - tors: https://tors.twinschema.org/
 - rdfs: http://www.w3.org/2000/01/rdf-schema#
 dt-id: https://dtid.org/6d38c494-2bc1-40c1-ab59-dd9f51d7eb01
-hosting-iri: autoassign
+hosting-iri: https://juusoautiosalo.github.io/dev-twinbase-ddt/6d38c494-2bc1-40c1-ab59-dd9f51d7eb01
 name: Windmill rotor 400000 exc 3.43e+03
 description: A rotor component for a windmill to be used to construct a torsional
   vibration analysis via a digital design template.
@@ -58,3 +58,6 @@ tors:properties:
     - 0.001561
   - - 16
     - 0.001928
+baseurl: https://juusoautiosalo.github.io/dev-twinbase-ddt
+edit: https://github.com/juusoautiosalo/dev-twinbase-ddt/edit/main/docs/6d38c494-2bc1-40c1-ab59-dd9f51d7eb01/index.yaml
+edit-json: https://github.com/juusoautiosalo/dev-twinbase-ddt/edit/main/docs/6d38c494-2bc1-40c1-ab59-dd9f51d7eb01/index.json

@@ -1,0 +1,101 @@
+{
+    "@context": [
+        {
+            "@vocab": "https://twinschema.org/"
+        },
+        {
+            "ddt": "https://ddt.twinschema.org/"
+        },
+        {
+            "tors": "https://tors.twinschema.org/"
+        },
+        {
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+        }
+    ],
+    "dt-id": "https://dtid.org/04b961ae-3af3-4061-9742-7c6b35584731",
+    "hosting-iri": "https://juusoautiosalo.github.io/dev-twinbase-ddt/04b961ae-3af3-4061-9742-7c6b35584731",
+    "name": "Windmill rotor 600000 exc 4.89e+03",
+    "description": "A rotor component for a windmill to be used to construct a torsional vibration analysis via a digital design template.",
+    "@type": [
+        "ddt:Component",
+        "tors:Rotor"
+    ],
+    "tors:power": 600000,
+    "tors:elements": [
+        {
+            "@type": "tors:Disk",
+            "rdfs:comment": {
+                "@language": "en",
+                "@value": "Rotor inner part"
+            },
+            "tors:inCoordinate": 0,
+            "tors:inertia": "4.89e+03",
+            "tors:damping": 1
+        },
+        {
+            "@type": "tors:ShaftDiscrete",
+            "rdfs:comment": {
+                "@language": "en",
+                "@value": "Spring that connects inner and outer parts of rotor"
+            },
+            "tors:inCoordinate": 0,
+            "tors:outCoordinate": 1,
+            "tors:stiffness": "8.15e+09",
+            "tors:damping": 0
+        },
+        {
+            "@type": "tors:Disk",
+            "rdfs:comment": {
+                "@language": "en",
+                "@value": "Rotor outer part"
+            },
+            "tors:inCoordinate": 1,
+            "tors:inertia": "1.42e+05",
+            "tors:damping": 0
+        }
+    ],
+    "tors:properties": [
+        {
+            "@type": "tors:Excitation",
+            "rdfs:comment": {
+                "@language": "en",
+                "@value": "Definition of excitations caused by this component. The excitation values are defined in tors:excitationValuesRpmPercentage as list of two-item lists that contain 1) the RPM multiple and 2) the value of excitation in percentages."
+            },
+            "tors:inCoordinate": 1,
+            "tors:excitationValuesRpmPercentage": [
+                [
+                    4,
+                    0.001988
+                ],
+                [
+                    6,
+                    0.01713
+                ],
+                [
+                    8,
+                    0.00183
+                ],
+                [
+                    10,
+                    0.003518
+                ],
+                [
+                    12,
+                    0.01394
+                ],
+                [
+                    14,
+                    0.002495
+                ],
+                [
+                    16,
+                    0.0005593
+                ]
+            ]
+        }
+    ],
+    "baseurl": "https://juusoautiosalo.github.io/dev-twinbase-ddt",
+    "edit": "https://github.com/juusoautiosalo/dev-twinbase-ddt/edit/main/docs/04b961ae-3af3-4061-9742-7c6b35584731/index.yaml",
+    "edit-json": "https://github.com/juusoautiosalo/dev-twinbase-ddt/edit/main/docs/04b961ae-3af3-4061-9742-7c6b35584731/index.json"
+}

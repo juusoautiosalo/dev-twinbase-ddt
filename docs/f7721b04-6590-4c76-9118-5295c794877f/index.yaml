@@ -4,7 +4,7 @@
 - tors: https://tors.twinschema.org/
 - rdfs: http://www.w3.org/2000/01/rdf-schema#
 dt-id: https://dtid.org/f7721b04-6590-4c76-9118-5295c794877f
-hosting-iri: autoassign
+hosting-iri: https://juusoautiosalo.github.io/dev-twinbase-ddt/f7721b04-6590-4c76-9118-5295c794877f
 name: Windmill rotor 500000 noexc 7.05e+03
 description: A rotor component for a windmill to be used to construct a torsional
   vibration analysis via a digital design template.
@@ -35,3 +35,6 @@ tors:elements:
   tors:inCoordinate: 1
   tors:inertia: '1.35e+05'
   tors:damping: 0
+baseurl: https://juusoautiosalo.github.io/dev-twinbase-ddt
+edit: https://github.com/juusoautiosalo/dev-twinbase-ddt/edit/main/docs/f7721b04-6590-4c76-9118-5295c794877f/index.yaml
+edit-json: https://github.com/juusoautiosalo/dev-twinbase-ddt/edit/main/docs/f7721b04-6590-4c76-9118-5295c794877f/index.json
