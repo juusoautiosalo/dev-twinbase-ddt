@@ -146,8 +146,6 @@ twins:
   name: Windmill turbine 400000 8.35e+06
 - url: https://juusoautiosalo.github.io/dev-twinbase-ddt/b1fab13a-0f3e-43b4-8e34-bafe8880a689
   name: Windmill rotor 500000 exc 7.48e+03
-- url: https://juusoautiosalo.github.io/dev-twinbase-ddt/7932202c-9889-4c33-b21e-d4c51c30fdc2
-  name: Windmill shaft 6m 3.75e+08
 - url: https://juusoautiosalo.github.io/dev-twinbase-ddt/e281722b-f80c-44f6-88ca-5823f11d8fc6
   name: Windmill turbine 500000 1.08e+07
 - url: https://juusoautiosalo.github.io/dev-twinbase-ddt/1febe1f0-16ff-4245-8fb2-759c93b01808
