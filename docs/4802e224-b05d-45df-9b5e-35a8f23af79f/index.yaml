@@ -31,6 +31,26 @@ ddt:components:
 - dt-id: https://dtid.org/7f386011-2f13-4774-803b-053ec7270788
 - dt-id: https://dtid.org/f8bf62fb-ec12-44b3-9d8c-02a124000788
 - dt-id: https://dtid.org/8813db90-4285-410f-baac-42cf5a80f341
+- dt-id: https://dtid.org/ec7bacbe-6c07-433f-aca6-24f284e923cd
+- dt-id: https://dtid.org/51f06d96-6ee7-4f44-bfc8-0912247efd8f
+- dt-id: https://dtid.org/cd7c1c28-c31f-4445-9e81-0127932cac55
+- dt-id: https://dtid.org/2322280d-5aa6-4679-97b9-1c80a1fd10a8
+- dt-id: https://dtid.org/e281722b-f80c-44f6-88ca-5823f11d8fc6
+- dt-id: https://dtid.org/8b8e0159-88ba-425d-a44c-6c2bbae20fdd
+- dt-id: https://dtid.org/985d9abc-d2a3-4b05-88af-b9013eb3223e
+- dt-id: https://dtid.org/aa3699f5-15af-4b14-81bc-9c3e57710630
+- dt-id: https://dtid.org/a87c2d5c-38e6-41f5-b707-32d30d75bf68
+- dt-id: https://dtid.org/6b288be6-5c03-4ee5-9fae-c621abd36d52
+- dt-id: https://dtid.org/9d0454b1-5d01-4ffc-a067-0ce3cf80e9fa
+- dt-id: https://dtid.org/0b42c73d-e3e7-4f8f-917b-0fe425b3e4f3
+- dt-id: https://dtid.org/da083adc-878e-4b0f-b401-d5e03628af55
+- dt-id: https://dtid.org/74b11adf-2c6e-4940-98ed-c7bc683d765e
+- dt-id: https://dtid.org/8d139ca1-60f8-455f-803d-336eb9f67c2c
+- dt-id: https://dtid.org/8810f28b-34e5-44e1-ae42-aeb60cb879e0
+- dt-id: https://dtid.org/194d9ccc-7c86-4f6e-9f59-48b418c565b2
+- dt-id: https://dtid.org/fe656e78-ca54-4331-9cca-d54895b3bee7
+- dt-id: https://dtid.org/98359e6d-6168-4708-bcd5-d5705e552205
+- dt-id: https://dtid.org/02f73458-d959-4e08-bc01-1798935a4a16
 baseurl: https://juusoautiosalo.github.io/dev-twinbase-ddt
 edit: https://github.com/juusoautiosalo/dev-twinbase-ddt/edit/main/docs/4802e224-b05d-45df-9b5e-35a8f23af79f/index.yaml
 edit-json: https://github.com/juusoautiosalo/dev-twinbase-ddt/edit/main/docs/4802e224-b05d-45df-9b5e-35a8f23af79f/index.json

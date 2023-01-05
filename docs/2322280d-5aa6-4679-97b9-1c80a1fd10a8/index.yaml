@@ -1,0 +1,22 @@
+'@context':
+- '@vocab': https://twinschema.org/
+- ddt: https://ddt.twinschema.org/
+- tors: https://tors.twinschema.org/
+- rdfs: http://www.w3.org/2000/01/rdf-schema#
+dt-id: https://dtid.org/2322280d-5aa6-4679-97b9-1c80a1fd10a8
+hosting-iri: autoassign
+name: Windmill turbine 500000 9.17e+06
+description: A turbine component for a windmill to be used to construct a torsional
+  vibration analysis via a digital design template.
+'@type':
+- ddt:Component
+- tors:Turbine
+tors:power: 500000
+tors:elements:
+- '@type': tors:Disk
+  rdfs:comment:
+    '@language': en
+    '@value': Turbine for a windmill
+  tors:inCoordinate: 0
+  tors:damping: 0
+  tors:inertia: '9.17e+06'
