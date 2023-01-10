@@ -32,7 +32,7 @@ ddt:assemblyTemplate:
     ddt:mustBeDefined:
     - '@type': tors:Excitation
       ddt:mustIncludeProperty:
-        tors:excitationValuesRpmPercentage: null
+        tors:excitationValuesRpmPercentage: true
       rdfs:comment:
         '@language': en
         '@value': The excitation properties of this component must be defined according
