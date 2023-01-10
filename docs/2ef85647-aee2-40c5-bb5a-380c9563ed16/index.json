@@ -59,7 +59,7 @@
                         {
                             "@type": "tors:Excitation",
                             "ddt:mustIncludeProperty": {
-                                "tors:excitationValuesRpmPercentage": null
+                                "tors:excitationValuesRpmPercentage": true
                             },
                             "rdfs:comment": {
                                 "@language": "en",
