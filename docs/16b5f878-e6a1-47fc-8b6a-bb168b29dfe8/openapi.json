@@ -13,7 +13,7 @@
       "post": {
         "summary": "Runs a torsional vibration analysis.",
         "requestBody": {
-          "description": "Send a JSON object that contains two objects:\n1. assebly_urls: a list of DTIDs that are used to construct an assembly for the analysis and \n2. linspace: a linspace object that defines the RPM interval of the performed vibration analyses.",
+          "description": "Send a JSON object that contains two objects: 1. assebly_urls: a list of DTIDs that are used to construct an assembly for the analysis and  2. linspace: a linspace object that defines the RPM interval of the performed vibration analyses.",
           "content": {
             "application/json": {
               "schema": {
@@ -73,7 +73,21 @@
         },
         "responses": {
           "200": {
-            "description": "OK"
+            "description": "Maximum amplitude of torsional vibration",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "max_amplitude": {
+                      "type": "number",
+                      "example": 53123.235,
+                      "description": "Maximum amplitude of torsional vibration in Newtons"
+                    }
+                  }
+                }
+              }
+            }
           }
         }
       }
