@@ -85,7 +85,7 @@
                 {
                     "@type": "ddt:LowerThan",
                     "ddt:requirementValue": {
-                        "tors:torqueMaxAmplitude": 1200000
+                        "tors:torqueMaxAmplitude": 50000
                     }
                 }
             ],
