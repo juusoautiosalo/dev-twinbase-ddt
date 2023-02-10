@@ -1,7 +1,7 @@
 openapi: 3.0.3
 info:
   title: Analysis service for torsional vibration
-  contact: 
+  contact:
     name: Riku Ala-Laurinaho
     url: https://www.aalto.fi/en/people/riku-ala-laurinaho
   version: 0.0.1
@@ -10,13 +10,9 @@ paths:
     post:
       summary: Runs a torsional vibration analysis.
       requestBody:
-        description: 'Send a JSON object that contains two objects:
-        
-          1. assebly_urls: a list of DTIDs that are used to construct an assembly for the analysis and 
-          
-          2. linspace: a linspace object that defines the RPM interval of the performed vibration analyses.'
+        description: 'Send a JSON object that contains two objects: 1. assebly_urls: a list of DTIDs that are used to construct an assembly for the analysis and  2. linspace: a linspace object that defines the RPM interval of the performed vibration analyses.'
         content:
-          'application/json':
+          application/json:
             schema:
               type: object
               properties:
@@ -34,19 +30,19 @@ paths:
                     num:
                       type: integer
                   required:
-                  - start
-                  - stop
-                  - num
+                    - start
+                    - stop
+                    - num
               required:
-              - assembly_urls
-              - linspace
+                - assembly_urls
+                - linspace
             examples:
               windmill:
                 value:
                   assembly_urls:
-                  - https://dtid.org/e85c46f4-bdc2-4e0e-acd2-6b0ae582072d
-                  - https://dtid.org/1febe1f0-16ff-4245-8fb2-759c93b01808
-                  - https://dtid.org/efa0d72f-994d-4ad4-9f16-f1565371a18d
+                    - https://dtid.org/e85c46f4-bdc2-4e0e-acd2-6b0ae582072d
+                    - https://dtid.org/1febe1f0-16ff-4245-8fb2-759c93b01808
+                    - https://dtid.org/efa0d72f-994d-4ad4-9f16-f1565371a18d
                   linspace:
                     start: 0.1
                     stop: 25
@@ -55,7 +51,16 @@ paths:
         required: true
       responses:
         '200':
-          description: OK
+          description: Maximum amplitude of torsional vibration
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  max_amplitude:
+                    type: number
+                    example: 53123.235
+                    description: The user ID.
 servers:
-- url: http://127.0.0.1:5000/v1
-  description: Development server
+  - url: http://127.0.0.1:5000/v1
+    description: Development server
