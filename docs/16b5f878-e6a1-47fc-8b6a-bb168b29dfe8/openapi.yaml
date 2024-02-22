@@ -42,7 +42,7 @@ paths:
                   assembly_urls:
                     - https://dtid.org/e85c46f4-bdc2-4e0e-acd2-6b0ae582072d
                     - https://dtid.org/1febe1f0-16ff-4245-8fb2-759c93b01808
-                    - https://dtid.org/efa0d72f-994d-4ad4-9f16-f1565371a18d
+                    - https://dtid.org/19707b48-028a-49ef-abc1-778e68b6010f
                   linspace:
                     start: 0.1
                     stop: 25
@@ -59,7 +59,7 @@ paths:
                 properties:
                   max_amplitude:
                     type: number
-                    example: 53123.235
+                    example: 41999.921
                     description: Maximum amplitude of torsional vibration in Newtons
 servers:
   - url: http://127.0.0.1:5000/v1
