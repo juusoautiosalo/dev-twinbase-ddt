@@ -12,7 +12,7 @@
     "name": "Analysis service for torsional vibration",
     "description": "Analysis service that perfoms torsional vibration analyses with the openTorsion library.",
     "@type": "ddt:analysisService",
-    "tors:adheresToStandard": "This is a placeholder",
+    "adheresToStandard": "[ISO23247, This is a placeholder]",
     "apiDefinitions": [
         {
             "@type": "OpenAPIDefinition",
